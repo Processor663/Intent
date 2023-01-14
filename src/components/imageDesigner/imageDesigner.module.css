@@ -1,0 +1,53 @@
+.wrapper {
+    border: 1px solid blue;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+
+
+}
+
+.wrapper img {
+    max-width: 100%;
+    position: relative;
+    right: 2rem;
+    top: 2rem;
+    border-radius: 20px;
+
+}
+
+.wrapperReverse {
+    border: 1px solid blue;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 20px;
+
+
+}
+
+.wrapperReverse img {
+    max-width: 100%;
+    position: relative;
+    left: 2rem;
+    top: 2rem;
+    border-radius: 20px;
+
+}
+
+
+@media screen and (max-width:998px) {
+    .wrapper img {
+       
+        right: 1rem;
+        bottom: 2rem;
+      
+    
+    }
+
+    .wrapperReverse img {
+        left: 0.6rem;
+        top: 2rem;
+    
+    }
+    
+}

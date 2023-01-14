@@ -1,0 +1,68 @@
+.hero {
+    background-image: url('../assets/Rectangle4.svg');
+    background-repeat: no-repeat; 
+    padding-top: 6em;
+    padding-bottom: 4em;
+  
+}
+
+
+.hero1 {
+    width: 85%;
+    margin:  auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; 
+
+
+} 
+
+.subhero1 {
+    width: 45%;
+
+}
+
+.ImageDesigner {
+    width: 45%;
+    margin: 4em 0em;
+    
+
+}
+
+.ImageDesigner img{
+    max-width: 100%;
+
+}
+
+
+
+
+@media screen and (max-width:998px) {
+
+    .hero {
+        padding-top: 10em;
+        background-size: cover;
+      
+    }
+
+    .hero1 {
+        flex-direction: column;
+        width: 95%;
+        /* background-color: black; */
+
+    }
+
+    .subhero1 {
+        width: 100%;
+        text-align: center;
+
+    }
+
+    .ImageDesigner {
+        width: 95%;
+        display: flex;
+        justify-content: center;
+   
+    }
+    
+}

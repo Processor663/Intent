@@ -1,0 +1,52 @@
+.wrapper {
+   margin-top: 6em;
+   /* border: 1px solid blue; */
+
+}
+
+
+
+.divider {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: var(--width);
+    margin: auto;
+}
+
+.divider h1 {
+    margin-bottom: 0.5em;
+}
+
+.divider > div {
+    width: 45%;
+    /* border: 1px solid red; */
+}
+
+
+@media screen and (max-width:998px) {
+
+    .wrapper {
+        margin-top: 5em;
+
+     }
+   
+    .divider {
+        width: 95%;
+        flex-direction: column;
+    }
+
+    .divider > div {
+        width: 100%;
+    }
+
+    .divider .imageDesigner {
+        display: flex;
+        justify-content: center;
+    }
+
+    .divider .reverseTop {
+        margin-top: 5em;
+    }
+    
+}

@@ -1,0 +1,96 @@
+.SubscribeToday {
+    background-image: url('../assets/Rectangle9.svg');
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-top: 8em;
+    text-align: center;
+     display: flex; 
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.SubscribeTodaySubDiv1 {
+    width: 40%;
+    /* font-weight: bold; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+
+}
+
+.SubscribeTodaySubDiv2 {
+    /* padding-bottom: 13em; */
+}
+
+.SubscribeTodaySubDiv1 h1 {
+    color: var(--blue);
+    font-size: 3.0rem;
+
+
+}
+
+
+
+
+.SubscribeToday input {
+    border:none;
+    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.61);
+    border-radius: 20px 0px 0px 20px;
+    padding: 0.8em 9em;
+
+
+    
+}
+
+.SubscribeToday button {
+    padding: 0.89em 1em; 
+    border:none;
+    border-radius: 0px 20px 20px 0px;
+    box-shadow: 0px 0px  10px rgba(0, 0, 0, 0.61);
+    color: white;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+
+
+
+}
+
+
+
+
+@media screen and (max-width:998px) {
+    .SubscribeTodaySubDiv1 {
+        width: 95%;      
+    }
+
+    .SubscribeTodaySubDiv1 h1 {
+        color: var(--blue);
+        font-size: 2.0rem;
+    
+    
+    }
+   
+
+    .SubscribeToday input {
+        border-radius: 20px;
+        padding: 0.7em 1em; 
+        margin-bottom: 1em;
+    
+    
+        
+    }
+
+    .SubscribeToday button {
+        padding: 0.7em 1em; 
+    
+        border:none;
+        border-radius: 20px;
+        box-shadow: 0px 0px  0px white;
+    
+    
+    
+    
+    }
+}
